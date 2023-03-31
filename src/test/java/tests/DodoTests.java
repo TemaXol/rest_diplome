@@ -2,6 +2,7 @@ package tests;
 
 import helpers.Variables;
 import lombok.RequestLombok;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
@@ -13,6 +14,7 @@ public class DodoTests {
     Variables variables = new Variables();
 
     @Test
+    @Tag("test")
     void checkCountryList() {
 
         step("check country List", () ->
@@ -25,6 +27,7 @@ public class DodoTests {
     }
 
     @Test
+    @Tag("test")
     void checkRevenueCountry() {
 
         step("check country revenue", () ->
@@ -38,6 +41,7 @@ public class DodoTests {
     }
 
     @Test
+    @Tag("test")
     void askFeedBack() {
 
         RequestLombok requestLombok = new RequestLombok();
@@ -56,6 +60,7 @@ public class DodoTests {
     }
 
     @Test
+    @Tag("test")
     void mailForWork() {
 
         RequestLombok requestLombok = new RequestLombok();

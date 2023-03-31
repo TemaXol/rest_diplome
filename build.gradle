@@ -37,3 +37,14 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+}
+
+task project_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("project")
+    }
+}
