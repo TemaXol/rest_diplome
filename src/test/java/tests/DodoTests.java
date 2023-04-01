@@ -28,6 +28,20 @@ public class DodoTests {
 
     @Test
     @Tag("test")
+    void checkPizzeria() {
+        step("check country List", () ->
+        given()
+                .when()
+                .get("/api/v1/pizzerias/all/156")
+                .then()
+                .log().all()
+                .statusCode(200)
+
+        );
+    }
+
+    @Test
+    @Tag("test")
     void checkRevenueCountry() {
 
         step("check country revenue", () ->
