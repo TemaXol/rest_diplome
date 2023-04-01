@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "homeWork",
+    "environment": "qa.guru",
+    "comment": "test comment of working_project",
+    "reportLink": "https://jenkins.autotests.cloud/",
+    "language": "ru",
+    "allureFolder": "allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5730765177:AAEJgtb5ISMUKGtx137bh3VebtW2AkQXars",
+    "chat": "-1001865089195",
+    "replyTo": ""
+  }
+}
