@@ -1,12 +1,12 @@
 {
   "base": {
     "logo": "",
-    "project": "homeWork",
+    "project": "rest_dodo",
     "environment": "qa.guru",
-    "comment": "test comment of working_project",
+    "comment": "test comment of rest_dodo",
     "reportLink": "https://jenkins.autotests.cloud/",
     "language": "ru",
-    "allureFolder": "build/allure-report/",
+    "allureFolder": "allure-report/",
     "enableChart": true
   },
   "telegram": {
