@@ -64,7 +64,7 @@ After completing all the settings, you need to click on the button <code><strong
 When the assembly is completed, the allure report becomes available.
 
 <p align="center">
-  <img src="media/allure_rest.png" alt="Jenkins" width="800">
+  <img src="media/logo/allure_rest.png" alt="Jenkins" width="800">
 </p>
 
 
