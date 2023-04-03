@@ -83,14 +83,14 @@ From <code><strong>Jenkins</strong></code> it is possible to switch to reports g
 ## Test-cases
 
 <p align="center">
-  <img src="media/testops.png" alt="testops" width="800">
+  <img src="media/logo/rest_allure.png" alt="testops" width="800">
 </p>
 
 <a id="jira"></a>
 ## <img width="4%" title="Jira" src="media/logo/Jira.svg"> Integration with [Jira](https://jira.autotests.cloud/browse/HOMEWORK-490)
 
 <p align="center">
-  <img src="media/jira-project.png" alt="jira-project" width="800">
+  <img src="media/logo/jira_rest.png" alt="jira-project" width="800">
 </p>
 
 <a id="telegram"></a>
