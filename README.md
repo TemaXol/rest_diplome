@@ -26,7 +26,6 @@
 <code><img width="5%" title="Selenide" src="media/logo/Selenide.svg"></code>
 <code><img width="5%" title="GitHub" src="media/logo/GitHub.svg"></code>
 <code><img width="5%" title="Jenkins" src="media/logo/Jenkins_logo.svg"></code>
-<code><img width="5%" title="Selenoid" src="media/logo/Selenoid.svg"></code>
 <code><img width="5%" title="Allure Report" src="media/logo/Allure.svg"></code>
 <code><img width="5%" title="Allure TestOps" src="media/logo/Allure_TO.svg"></code>
 <code><img width="5%" title="Jira" src="media/logo/Jira.svg"></code>
