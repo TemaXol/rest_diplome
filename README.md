@@ -36,18 +36,17 @@
 ## :bookmark_tabs: List of checks:
 ## E2E Tests
 
-- [x] City Selection Check
-- [x] Checking for wrong city selection
-- [x] Checking the choice of three pizzas
-- [x] Dessert Selection Check
-- [x] Checking the selection of snacks
-- [x] Checking pizza size selection
+- [x] Check country list
+- [x] Check pizzeria
+- [x] Check revenue country
+- [x] Ask FeedBack
+- [x] Send mail for work
 
 <a id="run"></a>
 ## :computer: Running tests from the terminal
 
 ```bash
-gradle clean project_test
+gradle clean rest_diplome
 ```
 
 <a id="remote"></a>
@@ -55,11 +54,7 @@ gradle clean project_test
 
 ```bash
 clean
-project_test
--Dremote=${SELENOID_URL}
--Dbrowser_version=${BROWSER_VERSION}
--Dbrowser=${BROWSER}
--Dbrowser_size=${BROWSER_SIZE}
+rest_diplome
 ```
 
 <a id="jenkins-report"></a>
