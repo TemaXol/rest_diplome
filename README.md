@@ -1,4 +1,4 @@
-## Automated tests for https://dodopizza.ru/
+## Automated tests for https://globalapi.dodopizza.com/
 <a name="Ссылка"></a>
 ## Content
 
