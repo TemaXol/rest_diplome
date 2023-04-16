@@ -30,12 +30,12 @@ public class DodoTests {
     @Tag("test")
     void checkPizzeria() {
         step("check country List", () ->
-        given()
-                .when()
-                .get("/api/v1/pizzerias/all/156")
-                .then()
-                .log().all()
-                .statusCode(200)
+                given()
+                        .when()
+                        .get("/api/v1/pizzerias/all/156")
+                        .then()
+                        .log().all()
+                        .statusCode(200)
 
         );
     }
@@ -93,6 +93,18 @@ public class DodoTests {
                         .post("/api/applicants/vacancies/response?apiKey=1b1d705f-0b5a-4c7d-a84d-81a5d2f662a5")
                         .then()
                         .spec(responseSpecWorking));
+    }
+
+    @Test
+    @Tag("test")
+    void mailForWorkNegative() {
+
+        step("Negative try to delete data", () ->
+                given()
+                        .when()
+                        .delete("/api/applicants/vacancies/response?apiKey=1b1d705f-0b5a-4c7d-a84d-81a5d2f662a5")
+                        .then()
+                        .spec(responseSpecWorkingNegative));
     }
 }
 

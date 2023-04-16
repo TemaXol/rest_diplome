@@ -53,4 +53,10 @@ public class Specs {
             .expectBody("title", is("One or more validation errors occurred."))
             .expectBody("errors", hasKey("$.unitUuid"))
             .build();
+
+
+    public static ResponseSpecification responseSpecWorkingNegative = new ResponseSpecBuilder()
+            .log(ALL)
+            .expectStatusCode(403)
+            .build();
 }
