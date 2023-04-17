@@ -1,7 +1,6 @@
 package specs;
 
 import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.filter.log.LogDetail;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
@@ -9,7 +8,6 @@ import static helpers.CustomAllureListener.withCustomTemplates;
 import static io.restassured.RestAssured.with;
 import static io.restassured.filter.log.LogDetail.ALL;
 import static org.hamcrest.Matchers.*;
-import static org.hamcrest.Matchers.hasKey;
 
 public class Specs {
 
@@ -28,7 +26,7 @@ public class Specs {
     public static ResponseSpecification responseSpec = new ResponseSpecBuilder()
             .log(ALL)
             .expectStatusCode(200)
-            .expectBody("countries.code", hasItems("cn","ee", "gb", "kg", "kz", "lt",
+            .expectBody("countries.code", hasItems("cn", "ee", "gb", "kg", "kz", "lt",
                     "ru", "ro", "uz", "by", "si", "ng", "de", "vn", "pl", "tj", "ae"))
             .expectBody("countries.currency", hasItems("CNY", "EUR", "GBP", "KGS", "KZT", "EUR", "RUB", "RON", "UZS", "BYN",
                     "EUR", "NGN", "EUR", "VND", "PLN", "TJS", "AED"))
