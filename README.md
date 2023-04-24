@@ -1,4 +1,7 @@
 ## Automated tests for https://globalapi.dodopizza.com/
+<p align="center">
+  <img src="media/dodologo.png" alt="mainLogo" width="800">
+</p>
 <a name="Ссылка"></a>
 ## Content
 
