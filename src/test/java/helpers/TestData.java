@@ -1,6 +1,6 @@
 package helpers;
 
-public class Variables {
+public class TestData {
 
     public String birthDay = "12.12.2000";
     public String firstName = "Logan";
