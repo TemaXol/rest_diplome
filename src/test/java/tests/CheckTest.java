@@ -14,11 +14,11 @@ public class CheckTest {
     void checkCountryList() {
 
         step("check country List", () ->
-                given(requestSpec)
+                given(requestCountriesSpec)
                         .when()
                         .get("/api/v1/countries/list")
                         .then()
-                        .spec(responseSpec));
+                        .spec(responseCountryListSpec));
 
     }
 
@@ -41,7 +41,7 @@ public class CheckTest {
     void checkRevenueCountry() {
 
         step("check country revenue", () ->
-                given(requestSpec)
+                given(requestCountriesSpec)
                         .when()
                         .get("api/v1/pizzerias/unit/643/144")
                         .then()

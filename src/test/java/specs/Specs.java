@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.*;
 
 public class Specs {
 
-    public static RequestSpecification requestSpec = with()
+    public static RequestSpecification requestCountriesSpec = with()
             .filter(withCustomTemplates())
             .baseUri("https://globalapi.dodopizza.com/");
 
@@ -23,7 +23,7 @@ public class Specs {
             .filter(withCustomTemplates())
             .baseUri("https://rabotavdodo.ru/");
 
-    public static ResponseSpecification responseSpec = new ResponseSpecBuilder()
+    public static ResponseSpecification responseCountryListSpec = new ResponseSpecBuilder()
             .log(ALL)
             .expectStatusCode(200)
             .expectBody("countries.code", hasItems("cn", "ee", "gb", "kg", "kz", "lt",
