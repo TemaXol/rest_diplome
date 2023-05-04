@@ -1,9 +1,7 @@
 package lombok;
 
-
 @Data
 public class RequestLombok {
-
     String email;
     String feedback;
     String name;
